@@ -102,12 +102,18 @@
                 Name *<input
                   type="text"
                   class="form__input"
-                  placeholder="Name surname"
+                  placeholder="Name Surname"
                 />
               </label>
               <label for="" class="form__label">
                 Number of guests *
-                <input type="number" class="form__input" placeholder="1-8" />
+                <input
+                  type="number"
+                  class="form__input"
+                  min="1"
+                  max="8"
+                  placeholder="1-8"
+                />
               </label>
               <label for="" class="form__label">
                 Date & time *

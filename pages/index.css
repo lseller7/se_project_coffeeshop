@@ -189,10 +189,10 @@
 .form__label_type_checkbox {
   margin-bottom: 32px;
   display: block;
+  text-align: center;
 }
 
 .form__label {
-  display: flex;
   justify-content: center;
 }
 
@@ -205,6 +205,11 @@
   height: 60px;
   margin-bottom: 32px;
   padding-left: 8px;
+  border-radius: 4px;
+}
+
+.form__input::placeholder {
+  color: #838383;
 }
 
 .form__button {
@@ -219,6 +224,7 @@
   height: 60px;
   background-color: #2f80ed;
   color: #fff;
+  border-radius: 4px;
 }
 
 .form__check {
