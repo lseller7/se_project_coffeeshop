@@ -188,7 +188,7 @@
 
 .form__label_type_checkbox {
   margin-bottom: 32px;
-  display: block;
+  display: flex;
   text-align: center;
 }
 
