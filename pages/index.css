@@ -194,6 +194,7 @@
 
 .form__label {
   justify-content: center;
+  margin: 0 auto;
 }
 
 .form__input {
@@ -227,8 +228,15 @@
   border-radius: 4px;
 }
 
+.form__button:hover {
+  transition: smooth;
+  opacity: 0.7;
+}
+
 .form__check {
   box-sizing: border-box;
   padding: 0;
   margin-right: 12px;
+  background-color: #2f80ed;
+  background-image: url(../images/check.svg);
 }
