@@ -17,5 +17,3 @@ Plans for improvement include:
 -Adding a form to place orders online for the coffee shop
 -Revamping of the menu items and their prices due to inflation
 -Adding a possible gift shop with coffee shop merch with items available for purchase through the webpage
-
--
