@@ -10,6 +10,8 @@
   background-size: cover;
   position: relative;
   background-position: center;
+  z-index: 1;
+  box-sizing: border-box;
 }
 
 .header__title {
@@ -24,7 +26,7 @@
 .header__description {
   max-width: 683px;
   margin: 28px 0 0;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -46,7 +48,8 @@
   height: 568px;
   width: 646px;
   right: 5px;
-  margin-top: 124px;
+  top: 124px;
+  z-index: -1;
 }
 
 .header__footer {
@@ -54,7 +57,7 @@
   justify-content: space-between;
   align-items: end;
   margin-top: auto;
-  font-family: "Inter";
+  font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
